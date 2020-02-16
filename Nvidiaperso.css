@@ -1,0 +1,18 @@
+body{
+    box-sizing: border-box;
+    background-image: url(image/background.jpg);
+    background-repeat: repeat;
+
+}
+header, main, footer{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFF1EF;
+}
+@font-face{
+    font-family: "magie";
+    src: url('police1/magie.ttf') format('ttf'),
+        url('police1/magie.woff') format('woff'),
+        url('police1/magie.eot') format('eot'),
+        url('police1/magie.woff2') format('woff2');
+}
